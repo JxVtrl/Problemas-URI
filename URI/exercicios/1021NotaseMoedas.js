@@ -1,6 +1,9 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var num = Number(lines.shift())
 var notas = {nota1:0,nota2:0,nota5:0,nota10:0,nota20:0,nota50:0,nota100:0}
 var moedas = {moeda1:0,moeda0_50:0,moeda0_25:0,moeda0_10:0,moeda0_05:0,moeda0_01:0}
