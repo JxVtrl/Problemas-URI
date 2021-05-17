@@ -1,6 +1,9 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var notas = (lines.shift('')).split(" ", 4)
 var final = Number(lines.shift())
 var N1 = notas[0]
