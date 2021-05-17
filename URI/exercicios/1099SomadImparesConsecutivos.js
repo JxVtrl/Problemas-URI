@@ -1,12 +1,15 @@
-var qtd = 2
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
+var qtd = Number(lines.shift())
 for(var c = 0;c<qtd;c++){
-    var teste = ('3 8').split(" ")
+    var teste = (lines.shift()).split(" ")
     
-    if(teste[1]<teste[0]){
+    if(Number(teste[1])<Number(teste[0])){
         var n1 = Number(teste[1])
         var n2 = Number(teste[0])
     }
-    else{
+    else if (Number(teste[1])>Number(teste[0])){
         var n1 = Number(teste[0])
         var n2 = Number(teste[1])
     }
