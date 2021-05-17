@@ -1,6 +1,9 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var qtd_Valores = Number(lines.shift())
 var valores = []
 for (var c = 0;c<qtd_Valores;c++){
