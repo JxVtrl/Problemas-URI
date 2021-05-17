@@ -1,6 +1,9 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var valores = (lines.shift()).split(" ", 3)
 var A = parseFloat(valores[0])
 var B = parseFloat(valores[1])
