@@ -1,6 +1,9 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var salario = Number(3000.00)
 if(salario <= 400){
     var novoSal = (salario*15/100)+salario
