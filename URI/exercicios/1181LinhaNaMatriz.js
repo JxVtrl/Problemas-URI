@@ -6,7 +6,6 @@ var lines = input.split('\n');
 
 var linha = Number(lines.shift())
 var op = lines.shift()
-
 var M = []
 for(var l = 0;l<12;l++){
     M[l] = new Array(12)
