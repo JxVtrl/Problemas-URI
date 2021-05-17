@@ -1,4 +1,7 @@
-var entra = 61
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
+const entra = Number(lines.shift())
 switch(entra){
     case 61:
         var res = 'Brasilia'
