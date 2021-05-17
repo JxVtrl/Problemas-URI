@@ -1,6 +1,9 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
 var termino = false
 do{
-    var entrada = ('5 2').split(" ", 2)
+    var entrada = lines.shift().split(" ", 2)
     if(entrada[1]<entrada[0]){
         var n1 = Number(entrada[1])
         var n2 = Number(entrada[0])
@@ -18,11 +21,9 @@ do{
         for(var c = n1;c<=n2;c++){
             string = string + `${c} `
             soma += c
-            termino = true
+            if(c==n2){
+                console.log(`${string}Sum=${soma}`)
+            }
         }
-        console.log(`${string}Sum=${soma}`)
-    
-        
     }
-
 } while(termino != true)
