@@ -1,5 +1,5 @@
 /* @jxvtrl */
-
+//PARA ENTRADA DO VALOR USE: lines.shift()
 
 var num = Number(lines.shift())
 var notas = {nota1:0,nota2:0,nota5:0,nota10:0,nota20:0,nota50:0,nota100:0}
@@ -55,7 +55,6 @@ do{
         moedas.moeda0_01 += 1
         num -= 0.01
     }
-    
 }while(num!=0)
 
 console.log(`NOTAS:`)
