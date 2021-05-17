@@ -1,5 +1,11 @@
-var n1 = -137
-var n2 = -243
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+var n1 = Number(lines.shift())
+var n2 = Number(lines.shift())
 var soma = 0
 if(n2<n1){
     var temp = n1
