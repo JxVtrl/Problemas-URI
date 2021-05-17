@@ -1,7 +1,10 @@
-var dia1 = ('Dia 5').split(" ", 2)
-var tempo1 = ('08 : 12 : 23').split(" : ", 3)
-var dia2 = ('Dia 9').split(" ", 2)
-var tempo2 = ('06 : 13 : 23').split(" : ", 3)
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
+var dia1 = (lines.shift()).split(" ", 2)
+var tempo1 = (lines.shift('')).split(" : ", 3)
+var dia2 = (lines.shift()).split(" ", 2)
+var tempo2 = (lines.shift()).split(" : ", 3)
 
 var d1 = Number(dia1[1])
 var h1 = Number(tempo1[0])
