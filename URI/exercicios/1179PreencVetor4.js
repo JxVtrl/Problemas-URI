@@ -1,7 +1,13 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var par = []
 var impar = []
-for(var c = 0;c<7;c++){
-    var entrada = 1
+for(var c = 0;c<15;c++){
+    var entrada = Number(lines.shift())
     if(entrada%2==0){
         par.push(entrada)
         if(par.length==5){
@@ -28,6 +34,6 @@ if(impar.length>0){
 }
 if(par.length>0){
     for(var n = 0;n < par.length;n++){
-        console.log(`par[${n}] = ${impar[n]}`)
+        console.log(`par[${n}] = ${par[n]}`)
     }
 }
