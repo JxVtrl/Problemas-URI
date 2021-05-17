@@ -1,5 +1,7 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
 
-var entrada = ('1 59 2 58').split(" ", 4)
+var entrada = (lines.shift()).split(" ", 4)
 var h1 = Number(entrada[0])
 var h2 = Number(entrada[2])
 var m1 = Number(entrada[1])
