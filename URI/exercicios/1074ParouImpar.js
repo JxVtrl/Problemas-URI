@@ -1,21 +1,33 @@
-var qtd_Valores = 1
-var c = qtd_Valores
-var valores = []
-for (qtd_Valores = 0;qtd_Valores<c;qtd_Valores++){
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
 
-    if(valores[qtd_Valores]<0 && valores[qtd_Valores]%2==0){
-        console.log(`EVEN NEGATIVE`)
+var qtd_Valores = Number(lines.shift())
+var valores = []
+for (var c = 0;c<qtd_Valores;c++){
+    var num = Number(lines.shift())
+    var string = ''
+    if(num==0){
+        console.log('NULL')
     }
-    else if(valores[qtd_Valores]>0 && valores[qtd_Valores]%2==0){
-        console.log(`EVEN POSITIVE`)
-    }
-    else if(valores[qtd_Valores]>0 && valores[qtd_Valores]%2!=0){
-        console.log(`ODD POSITIVE`)
-    }
-    else if(valores[qtd_Valores]<0 && valores[qtd_Valores]%2!=0){
-        console.log(`ODD NEGATIVE`)
-    }
-    else{
-        console.log(`NULL`)
+    else if(num%2==0){
+        string += 'EVEN '
+        if(num<0){
+            string += 'NEGATIVE'
+        }
+        else{
+            string += 'POSITIVE'
+        }
+        console.log(string)
+        }
+        
+        else{
+        string += 'ODD '
+        if(num<0){
+            string += 'NEGATIVE'
+        }
+        else{
+            string += 'POSITIVE'
+        }
+        console.log(string)
     }
 }
