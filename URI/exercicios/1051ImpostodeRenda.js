@@ -1,6 +1,9 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var entrada = Number(lines.shift())
 if((entrada > 2000) && (entrada<=3000)){
     var res = Number((entrada-2000)*(8/100))
