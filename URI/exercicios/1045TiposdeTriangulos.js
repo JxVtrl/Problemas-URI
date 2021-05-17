@@ -1,7 +1,10 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
-var entrada = ('5.0 7.0 7.0').split(" ", 3)
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+var entrada = (lines.shift()).split(" ", 3)
 entrada[0] = Number(entrada[0])
 entrada[1] = Number(entrada[1])
 entrada[2] = Number(entrada[2])
