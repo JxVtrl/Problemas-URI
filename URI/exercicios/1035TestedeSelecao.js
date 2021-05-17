@@ -1,5 +1,5 @@
 /* @jxvtrl */
-
+//PARA ENTRADA DO VALOR USE: lines.shift()
 
 var numeros = (lines.shift()).split(" ", 4)
 var A = numeros[0]
