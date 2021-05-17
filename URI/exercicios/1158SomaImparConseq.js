@@ -1,6 +1,12 @@
-var casos = 1
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+var casos = Number(lines.shift())
 for(var c = 1;c<=casos;c++){
-    var entrada = ('11 2').split(" ", 2)
+    var entrada = lines.shift().split(" ", 2)
     var X = Number(entrada[0])
     var Y = Number(entrada[1])
     var soma = 0
