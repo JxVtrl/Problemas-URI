@@ -1,4 +1,10 @@
-var entrada = '3 -1 0 -2 2'.split(" ")
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+var entrada = lines.shift().split(" ")
 var A = Number(entrada[0])
 for(var c = 1;c<=entrada.length;c++){
     if(entrada[c]>0){
