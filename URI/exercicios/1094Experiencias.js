@@ -1,14 +1,13 @@
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
 
-var linhas = lines.shift()
+var linhas = 1
 var C = 0
 var R = 0
 var S = 0
 var qtd_total = 0
 for(var c = 0;c<linhas;c++){
-    var exp = lines.shift()
-    var teste = exp.split(" ", 2)
+    var teste = ('10 C').split(" ", 2)
     if(teste[1]=='C'){
         C += Number(teste[0]) 
         qtd_total += Number(teste[0])
@@ -22,9 +21,9 @@ for(var c = 0;c<linhas;c++){
         qtd_total += Number(teste[0])
     }
 }
-var percem_C = C/qtd_total
-var percem_R = R/qtd_total
-var percem_S = S/qtd_total
+var percem_C = qtd_total/C
+var percem_R = qtd_total/R
+var percem_S = qtd_total/S
 
 console.log(`Total: ${qtd_total} cobaias`)
 console.log(`Total de coelhos: ${C}`)
