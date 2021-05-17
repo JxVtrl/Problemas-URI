@@ -1,6 +1,5 @@
-
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
-var lines = input.split('\n');
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
 
 var entradas = []
 var par = 0
@@ -24,6 +23,7 @@ for(var c = 1; c <= 5; c++){
     }
     
 }
+
 console.log(`${par} valor(es) par(es)`)
 console.log(`${impar} valor(es) impar(es)`)
 console.log(`${pos} valor(es) positivo(s)`)
