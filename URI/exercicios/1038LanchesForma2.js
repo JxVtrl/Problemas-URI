@@ -1,5 +1,5 @@
 /* @jxvtrl */
-//PARA ENTRADA DO VALOR USE: Number(lines.shift())
+//PARA ENTRADA DO VALOR USE: lines.shift()
 
 var pedido = ('3 2').split(" ", 2)
 console.log(pedido)
