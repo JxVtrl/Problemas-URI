@@ -1,7 +1,10 @@
-var qtd = 3
-for(var c = 0;c<qtd;c++){
-    var notas = ('6.5 4.3 6.2').split(" ", 3)
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
 
+var qtd = Number(lines.shift())
+
+for(var c = 0;c<qtd;c++){
+    var notas = lines.shift().split(" ", 3)
     for(var n = 0; n<3;n++){
         if(notas[n]==notas[0]){
             var n1 = notas[0]*2
