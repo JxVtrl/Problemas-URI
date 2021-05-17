@@ -1,6 +1,9 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var dois = 2
 var num = []
 var media = 0
@@ -28,7 +31,7 @@ do{
                 }
                 else if(ask===2){
                     nvCalc = true
-                }   
+                }
                 else{
                     pergunta = false
                 }
