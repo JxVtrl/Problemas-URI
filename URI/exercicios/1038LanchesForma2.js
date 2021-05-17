@@ -1,14 +1,10 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
-var pedido = ('3 2').split(" ", 2)
-console.log(pedido)
+var pedido = ((lines.shift()).split(" ", 2))
 var total = 0
-
 const cond = Number(pedido[0])
-console.log(cond)
 const qtd = Number(pedido[1])
-console.log(qtd)
 
 switch (cond) {
     case 1:
