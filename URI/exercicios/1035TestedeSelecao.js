@@ -1,3 +1,6 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: Number(lines.shift())
+
 var numeros = ('2 3 2 6').split(" ", 4)
 var A = numeros[0]
 console.log(A)
