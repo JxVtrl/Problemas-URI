@@ -1,13 +1,13 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
-var pedido = ('3 2').split(" ", 2)
+var pedido = (lines.shift()).split(" ", 2)
 
-var CQ = 4
-var XS = 4.50
-var XB = 5
-var TS = 2
-var RF = 1.50
+const CQ = 4
+const XS = 4.50
+const XB = 5
+const TS = 2
+const RF = 1.50
 total = null
 
 if (pedido[0] == 1){
