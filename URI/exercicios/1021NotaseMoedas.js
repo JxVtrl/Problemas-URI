@@ -1,5 +1,5 @@
 /* @jxvtrl */
-//PARA ENTRADA DO VALOR USE: lines.shift()
+
 
 var num = Number(lines.shift())
 var notas = {nota1:0,nota2:0,nota5:0,nota10:0,nota20:0,nota50:0,nota100:0}
