@@ -1,3 +1,6 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
 var entrada = ('7 21 -14').split(" ", 3)
 var limpa = []
 limpa[0] = Number(entrada[0])
