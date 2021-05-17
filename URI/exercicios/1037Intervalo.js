@@ -1,5 +1,5 @@
 /* @jxvtrl */
-//PARA ENTRADA DO VALOR USE: Number(lines.shift())
+//PARA ENTRADA DO VALOR USE: lines.shift()
  
 var num = parseFloat('-25.02')
 
