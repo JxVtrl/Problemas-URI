@@ -1,7 +1,7 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
-var valores = ('10.3 203.0 5.0').split(" ", 3)
+var valores = (lines.shift()).split(" ", 3)
 var A = parseFloat(valores[0])
 var B = parseFloat(valores[1])
 var C = parseFloat(valores[2])
