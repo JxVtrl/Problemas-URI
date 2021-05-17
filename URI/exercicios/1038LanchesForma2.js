@@ -1,3 +1,6 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: Number(lines.shift())
+
 var pedido = ('3 2').split(" ", 2)
 console.log(pedido)
 var total = 0
