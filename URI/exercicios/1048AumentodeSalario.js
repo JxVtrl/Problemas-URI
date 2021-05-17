@@ -1,3 +1,6 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
 var salario = Number(3000.00)
 if(salario <= 400){
     var novoSal = (salario*15/100)+salario
