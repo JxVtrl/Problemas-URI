@@ -9,6 +9,7 @@ var totGre = 0
 var totInt = 0
 var empate = 0
 var c = 0
+
 do{
     var entrada = lines.shift().split(" ", 2)
     c++
@@ -29,18 +30,17 @@ do{
     else{
         termina = false
     }
-    
 }while(termina==false)
-    console.log(`${c} grenais`)
-    console.log(`Inter:${totInt}`)
-    console.log(`Gremio:${totGre}`)
-    console.log(`Empates:${empate}`)
-    if(totInt>totGre){
-        console.log("Inter venceu mais")
-    }
-    else if(totInt<totGre){
-        console.log("Gremio venceu mais")
-    }
-    else{
-        console.log("Nao houve vencedor")
-    }
+console.log(`${c} grenais`)
+console.log(`Inter:${totInt}`)
+console.log(`Gremio:${totGre}`)
+console.log(`Empates:${empate}`)
+if(totInt>totGre){
+    console.log("Inter venceu mais")
+}
+else if(totInt<totGre){
+    console.log("Gremio venceu mais")
+}
+else{
+    console.log("Nao houve vencedor")
+}
