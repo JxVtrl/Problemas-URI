@@ -1,3 +1,6 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
 var ent = lines.shift().split(" ", 2)
 var n1 = Number(ent[0])
 var n2 = Number(ent[1])
