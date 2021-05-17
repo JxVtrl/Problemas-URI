@@ -1,6 +1,9 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var dia1 = (lines.shift()).split(" ", 2)
 var tempo1 = (lines.shift('')).split(" : ", 3)
 var dia2 = (lines.shift()).split(" ", 2)
