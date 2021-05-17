@@ -1,6 +1,12 @@
-var qtdNum = 1
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
+var qtdNum = Number(lines.shift())
 do{
-    var entrada = 8
+    var entrada = Number(lines.shift())
     var dois = 2
     for(var c=1;c<=entrada;c++){
         if(entrada%c==0){
