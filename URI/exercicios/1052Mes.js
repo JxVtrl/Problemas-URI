@@ -1,43 +1,45 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
 
+var entrada = Number(lines.shift())
+switch(entrada){
+    case 1:
+        console.log('January')
+        break
+    case 2:
+        console.log('February')
+        break
+    case 3:
+        console.log('March')
+        break
+    case 4:
+        console.log('April')
+        break
+    case 5:
+        console.log('May')
+        break
+    case 6:
+        console.log('June')
+        break
+    case 7:
+        console.log('July')
+        break
+    case 8:
+        console.log('August')
+        break
+    case 9:
+        console.log('September')
+        break
+    case 10:
+        console.log('October')
+        break
+    case 11:
+        console.log('November')
+        break
+    default:
+        console.log('December')
+}
 
-var entrada = 2
-
-if(entrada == 1){
-    console.log('January')
-}
-if(entrada == 2){
-    console.log('February')
-}
-if(entrada == 3){
-   console.log('March') 
-}
-if(entrada == 4){
-    console.log('April')
-}
-if(entrada == 5){
-    console.log('May')
-}
-if(entrada == 6){
-    console.log('June')
-}
-if(entrada == 7){
-    console.log('July')
-}
-if(entrada == 8){
-    console.log('August')
-}
-if(entrada == 9){
-    console.log('September')
-}
-if(entrada == 10){
-    console.log('October')
-}
-if(entrada == 11){
-    console.log('November')
-}
-if(entrada == 12){
-    console.log('December')
-}
 
         
         
