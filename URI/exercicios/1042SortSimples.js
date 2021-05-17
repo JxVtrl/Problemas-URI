@@ -1,6 +1,9 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+
 var entrada = (lines.shift()).split(" ", 3)
 var limpa = []
 limpa[0] = Number(entrada[0])
