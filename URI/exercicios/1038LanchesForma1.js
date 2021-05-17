@@ -1,5 +1,7 @@
-var pedido = ('3 2').split(" ", 2)
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: Number(lines.shift())
 
+var pedido = ('3 2').split(" ", 2)
 
 var CQ = 4
 var XS = 4.50
