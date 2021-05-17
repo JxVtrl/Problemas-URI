@@ -15,18 +15,18 @@ for(var l = 0;l<12;l++){
 if(op == 'S'){
     var soma = 0
     for(var lin = 0;lin<12;lin++){
-      for(var n = lin+1;n<12;n++){
-        soma += Number(M[lin][n])
-      }
+        for(var n = lin+1;n<12;n++){
+            soma += Number(M[lin][n])
+        }
     }
     console.log(soma.toFixed(1))
 }
 else if(op == 'M'){
     var soma = 0
     for(var lin = 0;lin<12;lin++){
-      for(var n = lin+1;n<12;n++){
-        soma += Number(M[lin][n])
-      }
+        for(var n = lin+1;n<12;n++){
+            oma += Number(M[lin][n])
+        }
     }
     var media = soma/66
     console.log(media.toFixed(1))
