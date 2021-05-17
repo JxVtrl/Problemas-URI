@@ -1,9 +1,7 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
  
-var num = parseFloat('-25.02')
-
-
+var num = parseFloat(lines.shift())
 if(num >= 0 && num <= 25){
     console.log(`Intervalo [0,25]`)
 }
