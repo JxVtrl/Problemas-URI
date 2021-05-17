@@ -1,3 +1,6 @@
+/* @jxvtrl */
+//PARA ENTRADA DO VALOR USE: lines.shift()
+
 var notas = ('10.0 10.0 0.0 0.0').split(" ", 4)
 var final = Number('5.0')
 var N1 = notas[0]
