@@ -5,7 +5,7 @@
 var entrada = Number(lines.shift())
 for(var c = 0;c<entrada;c++){
     var string = (lines.shift().toLowerCase()).split(" ", 2)
-
+    
     if(string[0]==string[1]){
         console.log(`Caso #${c+1}: De novo!`)
     }
