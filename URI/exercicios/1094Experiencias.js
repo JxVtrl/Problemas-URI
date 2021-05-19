@@ -1,32 +1,38 @@
 /* @jxvtrl */
 //PARA ENTRADA DO VALOR USE: lines.shift()
 
-var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+const fs = require('fs')
+try {
+    var input = fs.readFileSync('F:/CÓDIGOS/MeusProjetos/Problemas-JavaScript-Simples/URI/exercicios/teste.txt', 'utf8')
+  } catch (err) {
+    console.error(err)
+  }
 var lines = input.split('\n');
 
-var linhas = 1
+var linhas = Number(lines.shift())
 var C = 0
 var R = 0
 var S = 0
 var qtd_total = 0
 for(var c = 0;c<linhas;c++){
-    var teste = ('10 C').split(" ", 2)
-    if(teste[1]=='C'){
+    var exp = lines.shift()
+    var teste = exp.split(" ", 2)
+    if(teste[1].charAt(0)=='C'){
         C += Number(teste[0]) 
         qtd_total += Number(teste[0])
     }
-    else if(teste[1]=='R'){
+    else if(teste[1].charAt(0)=='R'){
         R += Number(teste[0])
         qtd_total += Number(teste[0])
     }
-    else if(teste[1]=='S'){
+    else if(teste[1].charAt(0)=='S'){
         S += Number(teste[0])
         qtd_total += Number(teste[0])
     }
 }
-var percem_C = qtd_total/C
-var percem_R = qtd_total/R
-var percem_S = qtd_total/S
+var percem_C = (C/qtd_total)*100
+var percem_R = (R/qtd_total)*100
+var percem_S = (S/qtd_total)*100
 
 console.log(`Total: ${qtd_total} cobaias`)
 console.log(`Total de coelhos: ${C}`)
